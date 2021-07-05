@@ -6,15 +6,15 @@ import (
 
 const (
 	module = "github.com/jixuyang/gotest"
-	tag    = "v1.2.0"
+	tag    = "v2.0.0"
 )
 
-func GetInfo() string {
+func GetInfo() (string, error) {
 	msg := fmt.Sprintf("[%s] [%s] GetInfo: return module info", tag, module)
-	return msg
+	return msg, nil
 }
 
-func GetLicense() string {
+func GetLicense() (string, error) {
 	msg := fmt.Sprintf("[%s] [%s] GetLicense: return module license", tag, module)
-	return msg
+	return msg, nil
 }
