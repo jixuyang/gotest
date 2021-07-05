@@ -6,10 +6,15 @@ import (
 
 const (
 	module = "gotest"
-	tag    = "v0.1.2"
+	tag    = "v1.0.0"
 )
 
 func GetInfo() string {
 	msg := fmt.Sprintf("[%s] [%s] GetInfo", tag, module)
+	return msg
+}
+
+func GetLicense() string {
+	msg := fmt.Sprintf("[%s] [%s] GetLicense", tag, module)
 	return msg
 }
