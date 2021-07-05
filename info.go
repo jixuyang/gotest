@@ -2,12 +2,18 @@ package gotest
 
 import (
 	"fmt"
+
+	log "github.com/sirupsen/logrus"
 )
 
 const (
 	module = "github.com/jixuyang/gotest"
 	tag    = "v2.0.0"
 )
+
+func init() {
+	log.Infof("[%s] [%s] init", tag, module)
+}
 
 func GetInfo() (string, error) {
 	msg := fmt.Sprintf("[%s] [%s] GetInfo: return module info", tag, module)
