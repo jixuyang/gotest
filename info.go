@@ -9,7 +9,7 @@ import (
 
 const (
 	module = "github.com/jixuyang/gotest"
-	tag    = "v2.0.0"
+	tag    = "v2.1.0"
 )
 
 func init() {
