@@ -6,7 +6,7 @@ import (
 
 const (
 	module = "github.com/jixuyang/gotest"
-	tag    = "v1.1.2"
+	tag    = "v1.1.3"
 )
 
 func GetInfo() string {
