@@ -1,4 +1,4 @@
-module github.com/jixuyang/gotest
+module github.com/jixuyang/gotest/v2
 
 go 1.16
 
